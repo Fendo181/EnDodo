@@ -2,6 +2,9 @@ class ProjectsController < ApplicationController
     
     #before_actionで定義したものに関しては、どのアクションでもそれを実行する前に必ず実行される
     
+    #RailsのDRY哲学はすごい
+    #after_actionもあります
+    
     before_action :set_project,only:[:show, :edit, :update,:destroy]
     
     #全部引っ張て来る

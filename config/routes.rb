@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
     
     #projectに関するURLを自動生成してくれます
-    resources :projects
+    resources :projects do
+        resources :tasks,only: [:create,:destroy]
+    end
+    
+    post '/projects/:project_id/tasks/:id/toggle' =>'tasks#toggle'
     
     
     #192.168.33.10:3000にアクセスした時に表示する。
