@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Taskapp</title>
+  <title>EnDoDo</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,8 +12,7 @@
 
 <%= yield %>
 
-<%=  link_to "Home", "/" %>
-<%=  link_to "Home2", projects_path %>
+<%=  link_to "Home", projects_path %>
 
 </body>
 </html>

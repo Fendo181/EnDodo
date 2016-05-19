@@ -1,5 +1,4 @@
-##__EnDodo@Rails__
-
+##__EnDodo(えんどぅーどぅ０)@Rails__
 ##概要説明
 - Todoアプリ
 - Railsの文法とDRY哲学を学ぶ
