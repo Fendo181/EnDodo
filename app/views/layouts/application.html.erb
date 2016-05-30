@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EnDoDo</title>
+  <title>EnDodo リスト</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,6 +10,7 @@
 
 <%= image_tag "logo.jpg"%>
 
+<!--コンテンツの表示-->
 <%= yield %>
 
 <%=  link_to "Home", projects_path %>

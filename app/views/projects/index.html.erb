@@ -1,5 +1,11 @@
 <h1>EnDodo List</h1>
 
+<p>
+<h3>まずはプロジェクトを作りましょう!
+<%= link_to "add new",new_project_path() %>
+</h3>
+<p/>
+
 
 <ul>
     <% @projects.each do |project| %>
@@ -15,9 +21,37 @@
     <% end  %>
 </ul>
 
+<div class="tutorial">
 
 
-<p>
-<%= link_to "add new",new_project_path() %>
-<p>
+<h2>EnDodo Listのチュートリアル</h2>
+
+<h3>
+<span>(1) add newを押してプロジェクトを創ります</span>
+</h3>
+
+<p>(例) 今日の予定、買い物リスト、今週見たい映画</p>
+
+
+<h3>
+<span>(2) プロジェクトが出来たら、そのリンクをクリックします。</span>
+</h3>
+
+
+<h3>
+<span>(3) プロジェクトに合ったTodoリスト入れていきましょう。</span>
+</h3>
+
+<p>(例)散歩しましょう! 本を買いましょう! 眠いですね!</p>
+
+</div>
+
+<div class="tutorial_end">
+<h2>最後に</h2>
+
+    <h3><span>Todoリストを作って満足しないでください!是非実行しましょう!</span></h3>
+</div>
+
+<p>Powerd by <a href="https://github.com/Fendo181">Endo</a></p>
+
 
