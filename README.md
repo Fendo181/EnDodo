@@ -13,7 +13,14 @@
 |vagrant|ver 1.81|
 
 ##外見
-`近日公開`
+
+__Topページ__
+
+![top1](https://github.com/Fendo181/Git_repos/blob/master/GitPicture/EnDodo/todo1.png)
+
+__タスク追加画面__
+
+![top2](https://github.com/Fendo181/Git_repos/blob/master/GitPicture/EnDodo/todo2.png)
 
 
 ##更新履歴
@@ -25,6 +32,11 @@ ver 0.01 [2016_5_14]
 ver 0.1 [2016_5_15]
 - 一つのプロジェクトに対して複数のtaskを追加する機能を追加
 - おおまかなTodoアプリ的な事はできる。
+
+ver 00.2 [2016_6_01]
+- デザインの修正
+- チュートリアル分を追加
+- 現在Herokuにデプロイをしようとして、奮闘中。
 
 
 ##TODO
